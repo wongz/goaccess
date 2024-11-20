@@ -560,7 +560,6 @@ msgid "Dark Blue"
 msgstr "深蓝"
 
 #: src/labels.h:348
-#, fuzzy
 msgid "Dark Purple"
 msgstr "深紫色"
 
