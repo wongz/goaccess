@@ -200,7 +200,7 @@ msgstr "每日独立访客"
 
 #: src/labels.h:106
 msgid "Unique visitors per day - Including spiders"
-msgstr "每日独立访客 - 包括网络机器人"
+msgstr "每日独立访客（包括网络机器人）"
 
 #: src/labels.h:108
 msgid "Hits having the same IP, date and agent are a unique visit."
@@ -213,7 +213,7 @@ msgstr "请求的文件/链接"
 #: src/labels.h:115
 msgid "Top requests sorted by hits [, avgts, cumts, maxts, mthd, proto]"
 msgstr ""
-"请求排序按点击量[平均响应时, 总共响应时, 最高响应时, 请求方法, 协议]"
+"请求链接排序按点击量[平均响应时, 总共响应时, 最高响应时, 请求方法, 协议]"
 
 #: src/labels.h:117
 msgid "Requests"
@@ -230,11 +230,11 @@ msgstr ""
 
 #: src/labels.h:127
 msgid "Time Distribution"
-msgstr "时间分配"
+msgstr "时间分布"
 
 #: src/labels.h:129
 msgid "Data sorted by hour [, avgts, cumts, maxts]"
-msgstr "数据列排序按小时[平均响应时, 总共响应时, 最高响应时]"
+msgstr "时间分布排序按小时[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:131
 msgid "Time"
@@ -246,7 +246,7 @@ msgstr "虚拟主机"
 
 #: src/labels.h:136 src/labels.h:143 src/labels.h:150
 msgid "Data sorted by hits [, avgts, cumts, maxts]"
-msgstr "数据列排序按点击量[平均响应时, 总共响应时, 最高响应时]"
+msgstr "虚拟主机排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:141
 msgid "Remote User (HTTP authentication)"
@@ -307,12 +307,12 @@ msgstr "浏览器排序按点击量[平均响应时, 总共响应时, 最高响�
 #: src/labels.h:183
 #, fuzzy
 msgid "Referrer URLs"
-msgstr "来源地址"
+msgstr "来源链接"
 
 #: src/labels.h:185
 #, fuzzy
 msgid "Top Requested Referrers sorted by hits [, avgts, cumts, maxts]"
-msgstr "来源地址排序按点击量[平均响应时, 总共响应时, 最高响应时]"
+msgstr "来源链接排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:190 src/labels.h:194
 msgid "Referring Sites"
@@ -607,7 +607,7 @@ msgstr "宽屏"
 
 #: src/labels.h:372
 msgid "File Options"
-msgstr "文件选项"
+msgstr "文件"
 
 #: src/labels.h:374
 msgid "Export as JSON"
