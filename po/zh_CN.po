@@ -35,11 +35,11 @@ msgstr "总共"
 
 #: src/labels.h:54
 msgid "[x] ASC [ ] DESC"
-msgstr "[x] 递增 [ ] 递减"
+msgstr "[x] 升序 [ ] 降序"
 
 #: src/labels.h:55
 msgid "[ ] ASC [x] DESC"
-msgstr "[ ] 递增 [x] 递减"
+msgstr "[ ] 升序 [x] 降序"
 
 #: src/labels.h:58
 #, c-format
@@ -128,11 +128,11 @@ msgstr "点击量"
 
 #: src/labels.h:82
 msgid "h%"
-msgstr ""
+msgstr "h%"
 
 #: src/labels.h:83 src/labels.h:110
 msgid "Visitors"
-msgstr "访客"
+msgstr "访客量"
 
 #: src/labels.h:84
 msgid "Vis."
@@ -140,7 +140,7 @@ msgstr "访客"
 
 #: src/labels.h:85
 msgid "v%"
-msgstr ""
+msgstr "v%"
 
 #: src/labels.h:87
 msgid "Avg. T.S."
@@ -176,7 +176,7 @@ msgstr "城市"
 
 #: src/labels.h:95 src/labels.h:211 src/labels.h:215
 msgid "ASN"
-msgstr ""
+msgstr "ASN"
 
 #: src/labels.h:96
 msgid "Country"
@@ -318,11 +318,11 @@ msgstr "来源地址排序按 [点击量, 平均响应时, 总共响应时, 最�
 
 #: src/labels.h:190 src/labels.h:194
 msgid "Referring Sites"
-msgstr "推荐网站"
+msgstr "来源网站"
 
 #: src/labels.h:192
 msgid "Top Referring Sites sorted by hits [, avgts, cumts, maxts]"
-msgstr "推荐网站排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "来源网站排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:197
 msgid "Keyphrases from Google's search engine"
@@ -346,7 +346,7 @@ msgstr "大陆 > 国家排序按 [点击量, 平均响应时, 总共响应时, �
 
 #: src/labels.h:213
 msgid "Autonomous System Numbers/Organizations (ASNs)"
-msgstr ""
+msgstr "自治系统编号/组织（ASNs）"
 
 #: src/labels.h:218
 msgid "HTTP Status Codes"
@@ -459,15 +459,15 @@ msgstr "格式错误 - 请检查你的日志/日期/时间格式"
 
 #: src/labels.h:294
 msgid "No date format was found on your conf file."
-msgstr "未在配置文件中设置日期格式"
+msgstr "配置文件中未设置日期格式"
 
 #: src/labels.h:296
 msgid "No log format was found on your conf file."
-msgstr "未在配置文件中设置日志格式"
+msgstr "配置文件中未设置日志格式"
 
 #: src/labels.h:298
 msgid "No time format was found on your conf file."
-msgstr "未在配置文件中设置时间格式"
+msgstr "配置文件中未设置时间格式"
 
 #: src/labels.h:300
 msgid "No default config file found."
@@ -513,11 +513,11 @@ msgstr "没有提供输入数据，也没有要恢复的数据"
 
 #: src/labels.h:320
 msgid "Unable to allocate memory for a log instance."
-msgstr ""
+msgstr "无法加载日志至内存"
 
 #: src/labels.h:322
 msgid "Unable to find the given log."
-msgstr ""
+msgstr "未找到指定的日志"
 
 #: src/labels.h:326
 msgid "For more details visit"
@@ -570,7 +570,7 @@ msgstr "面板"
 
 #: src/labels.h:352
 msgid "Items per Page"
-msgstr "每页项目"
+msgstr "每页项目数"
 
 #: src/labels.h:354
 msgid "Tables"
@@ -630,11 +630,11 @@ msgstr "前进"
 
 #: src/labels.h:382
 msgid "First"
-msgstr ""
+msgstr "初始"
 
 #: src/labels.h:384
 msgid "Last"
-msgstr ""
+msgstr "最新"
 
 #: src/labels.h:386
 msgid "Chart Options"
@@ -658,7 +658,7 @@ msgstr "条形图"
 
 #: src/labels.h:396
 msgid "World Map"
-msgstr ""
+msgstr "世界地图"
 
 #: src/labels.h:398
 msgid "Plot Metric"
@@ -671,7 +671,7 @@ msgstr "表格列"
 
 #: src/labels.h:404
 msgid "0xx Unofficial Codes"
-msgstr ""
+msgstr "0xx 非标准码"
 
 #: src/labels.h:406
 msgid "1xx Informational"
@@ -687,15 +687,15 @@ msgstr "3xx Url重定向"
 
 #: src/labels.h:412
 msgid "4xx Client Errors"
-msgstr "4xx 客户端错"
+msgstr "4xx 客户端错误"
 
 #: src/labels.h:414
 msgid "5xx Server Errors"
-msgstr "5xx 服务器错"
+msgstr "5xx 服务器错误"
 
 #: src/labels.h:417
 msgid "0 - Caddy: Unhandled - No configured routes"
-msgstr ""
+msgstr "0 - Caddy: 无法处理-未配置路由"
 
 #: src/labels.h:419
 msgid "100 - Continue: Server received the initial part of the request"
@@ -776,7 +776,7 @@ msgstr "307 - 临时重定向: 临时从另外的URI响应"
 #: src/labels.h:457
 #, fuzzy
 msgid "308 - Permanent Redirect"
-msgstr "402 - 需要支付"
+msgstr "308 - 需要支付"
 
 #: src/labels.h:459
 msgid "400 - Bad Request: The syntax of the request is invalid"
@@ -907,7 +907,7 @@ msgstr ""
 #: src/labels.h:521
 #, fuzzy
 msgid "449 - Retry With: The server cannot honour the request"
-msgstr "408 - 请求超时: 服务器在等候请求时超时"
+msgstr "449 - 请求超时: 服务器在等候请求时超时"
 
 #: src/labels.h:523
 msgid ""
@@ -1042,7 +1042,7 @@ msgstr ""
 #: src/labels.h:583
 #, fuzzy
 msgid "561 - Unauthorized: An error around authentication"
-msgstr "401 - 未授权: 当前请求需要用户授权"
+msgstr "561 - 未授权: 当前请求需要用户授权"
 
 #: src/labels.h:585
 msgid ""
