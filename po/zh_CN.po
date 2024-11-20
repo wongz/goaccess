@@ -48,11 +48,11 @@ msgstr "[当前面板： %1$s]"
 
 #: src/labels.h:59
 msgid "[q]uit GoAccess"
-msgstr "[q]退出GoAccess"
+msgstr "[q]退出 GoAccess"
 
 #: src/labels.h:60
 msgid "[?] Help [Enter] Exp. Panel"
-msgstr "[?]帮助 [回车]展开面板"
+msgstr "[?]帮助 [ENTER]展开面板"
 
 #: src/labels.h:61
 msgid "Dashboard"
@@ -60,7 +60,7 @@ msgstr "概览"
 
 #: src/labels.h:62
 msgid "Dashboard - Overall Analyzed Requests"
-msgstr "概览-所有已分析的请求"
+msgstr "概览 - 所有已分析的请求"
 
 #: src/labels.h:63
 msgid "Overall Analyzed Requests"
@@ -72,11 +72,11 @@ msgstr "数据传输量"
 
 #: src/labels.h:66
 msgid "Date/Time"
-msgstr "时期/时间"
+msgstr "日期/时间"
 
 #: src/labels.h:67
 msgid "Excl. IP Hits"
-msgstr "过滤来自此IP的请求"
+msgstr "已过滤IP的请求"
 
 #: src/labels.h:68
 msgid "Failed Requests"
@@ -108,7 +108,7 @@ msgstr "静态文件"
 
 #: src/labels.h:75 src/labels.h:159
 msgid "Not Found"
-msgstr "未找到(404)"
+msgstr "无效的请求(404)"
 
 #: src/labels.h:76
 msgid "Requested Files"
@@ -116,7 +116,7 @@ msgstr "请求的文件"
 
 #: src/labels.h:77
 msgid "Unique Visitors"
-msgstr "独立访客"
+msgstr "独立访问量"
 
 #: src/labels.h:78
 msgid "Valid Requests"
@@ -132,11 +132,11 @@ msgstr "h%"
 
 #: src/labels.h:83 src/labels.h:110
 msgid "Visitors"
-msgstr "访客量"
+msgstr "访问量"
 
 #: src/labels.h:84
 msgid "Vis."
-msgstr "访客"
+msgstr "访问"
 
 #: src/labels.h:85
 msgid "v%"
@@ -192,7 +192,7 @@ msgstr "数据"
 
 #: src/labels.h:100
 msgid "Hits/Visitors"
-msgstr "点击量/访客"
+msgstr "点击量/访客量"
 
 #: src/labels.h:104
 msgid "Unique visitors per day"
@@ -204,16 +204,16 @@ msgstr "每日独立访客 - 包括网络机器人"
 
 #: src/labels.h:108
 msgid "Hits having the same IP, date and agent are a unique visit."
-msgstr "来自同一IP、时间和Http用户代理的多次点击被视作一次访问"
+msgstr "来自同一IP、时间和代理的点击视为独立访客"
 
 #: src/labels.h:113
 msgid "Requested Files (URLs)"
-msgstr "请求的文件"
+msgstr "请求的文件/链接"
 
 #: src/labels.h:115
 msgid "Top requests sorted by hits [, avgts, cumts, maxts, mthd, proto]"
 msgstr ""
-"请求排序按 [点击量, 平均响应时, 总共响应时, 最高响应时, 请求方法, 协议]"
+"请求排序按点击量[平均响应时, 总共响应时, 最高响应时, 请求方法, 协议]"
 
 #: src/labels.h:117
 msgid "Requests"
@@ -226,7 +226,7 @@ msgstr "静态请求"
 #: src/labels.h:122
 msgid "Top static requests sorted by hits [, avgts, cumts, maxts, mthd, proto]"
 msgstr ""
-"静态请求排序按 [点击量, 平均响应时, 总共响应时, 最高响应时, 请求方法, 协议]"
+"静态请求排序按点击量[平均响应时, 总共响应时, 最高响应时, 请求方法, 协议]"
 
 #: src/labels.h:127
 msgid "Time Distribution"
@@ -234,7 +234,7 @@ msgstr "时间分配"
 
 #: src/labels.h:129
 msgid "Data sorted by hour [, avgts, cumts, maxts]"
-msgstr "数据列排序按 [小时, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "数据列排序按小时[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:131
 msgid "Time"
@@ -246,11 +246,11 @@ msgstr "虚拟主机"
 
 #: src/labels.h:136 src/labels.h:143 src/labels.h:150
 msgid "Data sorted by hits [, avgts, cumts, maxts]"
-msgstr "数据列排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "数据列排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:141
 msgid "Remote User (HTTP authentication)"
-msgstr "已认证用户(HTTP authentication)"
+msgstr "已认证用户（HTTP 认证）"
 
 #: src/labels.h:145
 msgid "Remote User"
@@ -266,13 +266,11 @@ msgstr "缓存状态"
 
 #: src/labels.h:155
 msgid "Not Found URLs (404s)"
-msgstr "未找到的URLs"
+msgstr "无效链接（404）"
 
 #: src/labels.h:157
 msgid "Top not found URLs sorted by hits [, avgts, cumts, maxts, mthd, proto]"
-msgstr ""
-"未找到的URLs排序按 [点击量, 平均响应时, 总共响应时, 最高响应时, 请求方法, 协"
-"议]"
+msgstr "无效链接排序按点击量[平均响应时, 总共响应时, 最高响应时, 请求方法, 协议]"
 
 #: src/labels.h:162
 msgid "Visitor Hostnames and IPs"
@@ -280,7 +278,7 @@ msgstr "访客主机名和IP地址"
 
 #: src/labels.h:164
 msgid "Top visitor hosts sorted by hits [, avgts, cumts, maxts]"
-msgstr "访客主机排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "访客主机排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:166
 msgid "Hosts"
@@ -292,7 +290,7 @@ msgstr "操作系统"
 
 #: src/labels.h:171
 msgid "Top Operating Systems sorted by hits [, avgts, cumts, maxts]"
-msgstr "操作系统排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "操作系统排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:173
 msgid "OS"
@@ -304,25 +302,25 @@ msgstr "浏览器"
 
 #: src/labels.h:178
 msgid "Top Browsers sorted by hits [, avgts, cumts, maxts]"
-msgstr "浏览器排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "浏览器排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:183
 #, fuzzy
 msgid "Referrer URLs"
-msgstr "来源地址URLs"
+msgstr "来源地址"
 
 #: src/labels.h:185
 #, fuzzy
 msgid "Top Requested Referrers sorted by hits [, avgts, cumts, maxts]"
-msgstr "来源地址排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "来源地址排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:190 src/labels.h:194
 msgid "Referring Sites"
-msgstr "来源网站"
+msgstr "来源站点"
 
 #: src/labels.h:192
 msgid "Top Referring Sites sorted by hits [, avgts, cumts, maxts]"
-msgstr "来源网站排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "来源站点排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:197
 msgid "Keyphrases from Google's search engine"
@@ -330,7 +328,7 @@ msgstr "谷歌搜索关键字"
 
 #: src/labels.h:199
 msgid "Top Keyphrases sorted by hits [, avgts, cumts, maxts]"
-msgstr "关键字排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "关键字排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:201
 msgid "Keyphrases"
@@ -342,7 +340,7 @@ msgstr "地理位置"
 
 #: src/labels.h:206
 msgid "Continent > Country sorted by unique hits [, avgts, cumts, maxts]"
-msgstr "大陆 > 国家排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "大洲 > 国家排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:213
 msgid "Autonomous System Numbers/Organizations (ASNs)"
@@ -350,11 +348,11 @@ msgstr "自治系统编号/组织（ASNs）"
 
 #: src/labels.h:218
 msgid "HTTP Status Codes"
-msgstr "HTTP状态码"
+msgstr "HTTP 状态码"
 
 #: src/labels.h:220
 msgid "Top HTTP Status Codes sorted by hits [, avgts, cumts, maxts]"
-msgstr "HTTP状态码排序按 [点击量, 平均响应时, 总共响应时, 最高响应时]"
+msgstr "HTTP 状态码排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:222
 msgid "Status Codes"
@@ -390,7 +388,7 @@ msgstr "[x] 区分大小写"
 
 #: src/labels.h:244
 msgid "Regex allowed - ^g to cancel - TAB switch case"
-msgstr "允许正则表达式 - ^g退出 - TAB改变大小写"
+msgstr "允许正则表达式 - [^g]退出  [TAB]改变大小写"
 
 #: src/labels.h:246
 msgid "Find pattern in all views"
@@ -402,7 +400,7 @@ msgstr "日志格式设置"
 
 #: src/labels.h:252
 msgid "[SPACE] to toggle - [ENTER] to proceed - [q] to quit"
-msgstr "[空格]切换 - [回车]继续 - [q]退出"
+msgstr "[空格]切换  [回车]继续  [q]退出"
 
 #: src/labels.h:254
 msgid "Log Format - [c] to add/edit format"
@@ -418,7 +416,7 @@ msgstr "时间格式 - [t]新建/修改格式"
 
 #: src/labels.h:260 src/labels.h:264
 msgid "[UP/DOWN] to scroll - [q] to close window"
-msgstr "[UP/DOWN]上下滚动 - [q]退出"
+msgstr "[UP/DOWN]上下滚动  [q]退出"
 
 #: src/labels.h:266
 #, c-format
@@ -431,23 +429,23 @@ msgstr "颜色方案设置"
 
 #: src/labels.h:272
 msgid "[ENTER] to use scheme - [q]uit"
-msgstr "[回车]选取方案 - [q]退出"
+msgstr "[ENTER]选取方案  [q]退出"
 
 #: src/labels.h:276
 msgid "Sort active module by"
-msgstr "当前选择栏目排序"
+msgstr "选中栏目排序"
 
 #: src/labels.h:278
 msgid "[ENTER] select - [TAB] sort - [q]uit"
-msgstr "[回车]选择 - [TAB]排序 - [q]退出"
+msgstr "[ENTER]选择  [TAB]排序  [q]退出"
 
 #: src/labels.h:282
 msgid "GoAccess Quick Help"
-msgstr "GoAccess快速帮助"
+msgstr "GoAccess 快速帮助"
 
 #: src/labels.h:284
 msgid "[UP/DOWN] to scroll - [q] to quit"
-msgstr "[UP/DOWN]上下滚动 - [q]退出"
+msgstr "[UP/DOWN]上下滚动  [q]退出"
 
 #: src/labels.h:288
 msgid "In-Memory with On-Disk Persistent Storage."
@@ -488,7 +486,7 @@ msgstr "已解析 %1$d 行"
 
 #: src/labels.h:308
 msgid "Please report it by opening an issue on GitHub"
-msgstr "请在GitHub中添加一个issue来给我们反馈信息"
+msgstr "请在 GitHub 中添加一个 issue 来给我们反馈信息"
 
 #: src/labels.h:310
 msgid "Select a time format."
@@ -529,11 +527,11 @@ msgstr "最近更新"
 
 #: src/labels.h:330
 msgid "WebSocket server ready to accept new client connections"
-msgstr "WebSocket服务器已准备接收来自客户的连接"
+msgstr "WebSocket 服务器已准备接收来自客户的连接"
 
 #: src/labels.h:333
 msgid "The following options can also be supplied to the command"
-msgstr "你也可以在command中选择以下选项"
+msgstr "你也可以在命令行中选择以下选项"
 
 #: src/labels.h:335
 msgid "Examples can be found by running"
@@ -569,11 +567,11 @@ msgstr "面板"
 
 #: src/labels.h:352
 msgid "Items per Page"
-msgstr "每页项目数"
+msgstr "分页大小"
 
 #: src/labels.h:354
 msgid "Tables"
-msgstr "表格"
+msgstr "表格选项"
 
 #: src/labels.h:356
 msgid "Display Tables"
@@ -649,11 +647,11 @@ msgstr "类型"
 
 #: src/labels.h:392
 msgid "Area Spline"
-msgstr "AreaSpline图表"
+msgstr "面积折线图"
 
 #: src/labels.h:394
 msgid "Bar"
-msgstr "条形图"
+msgstr "柱形图"
 
 #: src/labels.h:396
 msgid "World Map"
@@ -682,7 +680,7 @@ msgstr "2xx 成功"
 
 #: src/labels.h:410
 msgid "3xx Redirection"
-msgstr "3xx Url重定向"
+msgstr "3xx 重定向"
 
 #: src/labels.h:412
 msgid "4xx Client Errors"
