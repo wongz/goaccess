@@ -305,12 +305,10 @@ msgid "Top Browsers sorted by hits [, avgts, cumts, maxts]"
 msgstr "浏览器排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
 #: src/labels.h:183
-#, fuzzy
 msgid "Referrer URLs"
 msgstr "来源链接"
 
 #: src/labels.h:185
-#, fuzzy
 msgid "Top Requested Referrers sorted by hits [, avgts, cumts, maxts]"
 msgstr "来源链接排序按点击量[平均响应时, 总共响应时, 最高响应时]"
 
