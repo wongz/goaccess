@@ -132,7 +132,7 @@ msgstr "h%"
 
 #: src/labels.h:83 src/labels.h:110
 msgid "Visitors"
-msgstr "访问量"
+msgstr "访客量"
 
 #: src/labels.h:84
 msgid "Vis."
@@ -204,7 +204,7 @@ msgstr "每日独立访客 - 包括网络机器人"
 
 #: src/labels.h:108
 msgid "Hits having the same IP, date and agent are a unique visit."
-msgstr "来自同一IP、时间和代理的点击视为独立访客"
+msgstr "如果IP地址、日期和用户代理都相同，他们将被视为唯一用户。"
 
 #: src/labels.h:113
 msgid "Requested Files (URLs)"
